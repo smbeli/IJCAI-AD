@@ -65,9 +65,9 @@ def lgb_log_loss():
     print('log_loss ', log_loss(y_test, test_pred))
 
 if __name__ == "__main__":
-    lgb_log_loss()
+    #lgb_log_loss()
     #print(test['instance_id'].values)
-    #result(LogisticRegression(C=100,n_jobs=-1))
+    result(LogisticRegression(C=100,n_jobs=-1))
     #print("---LogisticRegression------")
     #model_log_loss(LogisticRegression(C=100,n_jobs=-1))
     # print("---DecisionTreeClassifier---")
